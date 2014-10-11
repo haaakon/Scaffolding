@@ -1,10 +1,11 @@
 Scaffolding
 ===========
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/haaakon/Scaffolding/master/scaffolding.png" />
 
-![](https://raw.githubusercontent.com/haaakon/Scaffolding/master/scaffolding.png)
 
-
+</p>
 All the Xcode Templates you'll ever need.
 
 
