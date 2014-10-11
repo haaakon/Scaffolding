@@ -1,6 +1,10 @@
 Scaffolding
 ===========
 
+
+![](https://raw.githubusercontent.com/haaakon/Scaffolding/master/scaffolding.png)
+
+
 All the Xcode Templates you'll ever need.
 
 
