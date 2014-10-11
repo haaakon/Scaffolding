@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="587px" height="143px" viewBox="0 0 587 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>scaffolding</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs>
+        <linearGradient x1="103.41664%" y1="-94.4037543%" x2="9.03884991%" y2="266.042752%" id="linearGradient-1">
+            <stop stop-color="#100100100" offset="-0.0127939793%"></stop>
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#C8FFD7" offset="11.0713076%"></stop>
+            <stop stop-color="#96FED9" offset="68.9723424%"></stop>
+            <stop stop-color="#66C6FE" offset="100%"></stop>
+            <stop stop-color="#FD6E22" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <rect id="Rectangle-1" stroke="#979797" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" x="-1" y="0" width="588" height="144"></rect>
+        <text id="Scaffolding" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="80" font-weight="260" sketch:alignment="middle" fill="#000000">
+            <tspan x="98.8119531" y="97">Scaffolding</tspan>
+        </text>
+    </g>
+</svg>
