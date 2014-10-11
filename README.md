@@ -1,6 +1,3 @@
-Scaffolding
-===========
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/haaakon/Scaffolding/master/scaffolding.png" />
 
