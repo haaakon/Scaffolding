@@ -57,6 +57,14 @@
     id objectInFetchedResultsController = [self.fetchedResultsController objectAtIndexPath:indexPath];
     
 }
+
+// convenience method for fetching objects at index path from the database
+- (id)managedObjectAtIndexPath:(NSIndexPath *) indexPath
+{
+    id managedObject = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    return managedObject;
+}
+
 - (NSFetchedResultsController *)fetchedResultsController
 {
     if (_fetchedResultsController != nil) {
