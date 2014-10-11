@@ -6,13 +6,16 @@ Scaffolding
 
 
 </p>
-All the Xcode Templates you'll ever need.
+Useful templates for best-practice coding iOS apps. Now compatible with Swift!
 
 
 ### Contents
 
-#### UITableView DataSource
-Template with default method implementations allready present
+#### UITableView/UICollectionView DataSource
+Always split out your datasource into a separate file from your view controller, this template will give you a good starting point. Also supports fetched results controller
+
+#### Swift Extension
+Automatically gives proper naming and subclassing when you make an extension
 
 
 ### Installation
