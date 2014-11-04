@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource {
+class ___FILEBASENAMEASIDENTIFIER___: NSObject, UITableViewDataSource {
     
     func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
         return 1
