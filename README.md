@@ -16,6 +16,9 @@ Automatically gives proper naming and subclassing when you make an extension
 
 
 ### Installation
+Install with <a href="http://alcatraz.io">Alcatraz</a>
+
+or
 
 Download or clone the repository
 Move the contents of Project Templates in the repository to
