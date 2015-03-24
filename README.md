@@ -14,6 +14,8 @@ Always split out your datasource into a separate file from your view controller,
 #### Swift Extension
 Automatically gives proper naming and subclassing when you make an extension
 
+#### Model Manager
+Sets up a Model Manager so you don't have to access managed object context from App Delegate. Its auto generated based on the name of your xcdatamodeld file.
 
 ### Installation
 Install with <a href="http://alcatraz.io">Alcatraz</a>
