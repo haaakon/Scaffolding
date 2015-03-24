@@ -25,7 +25,7 @@
 			<key>Identifier</key>
 			<string>categoryName</string>
 			<key>Name</key>
-			<string>Category</string>
+			<string>Extension name</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
