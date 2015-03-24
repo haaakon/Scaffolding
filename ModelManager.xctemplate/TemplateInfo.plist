@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>AllowedTypes</key>
+		<array>
+			<string>public.objective-c-source</string>
+			<string>public.objective-c-plus-plus-source</string>
+			<string>public.swift-source</string>
+		</array>
+		<key>DefaultCompletionName</key>
+		<string>ModelManager</string>
+		<key>Description</key>
+		<string>Manager that handles your Core Data managed object context</string>
+		<key>Kind</key>
+		<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+		<key>MainTemplateFile</key>
+		<string>___FILEBASENAME___.swift</string>
+		<key>Options</key>
+		<array>
+
+		 	<dict>
+				<key>Description</key>
+				<string>The name of your .xcdatamodeld file</string>
+				<key>Identifier</key>
+				<string>xcdatamodeldName</string>
+				<key>Name</key>
+				<string>.xcdatamodeld name</string>
+				<key>NotPersisted</key>
+				<true/>
+				<key>Type</key>
+				<string>text</string>
+			</dict>
+
+			 <!-- <dict>
+				<key>Default</key>
+				<string>ModelManager</string>
+				<key>Identifier</key>
+				<string>ModelManager</string>
+				<key>Type</key>
+				<string>static</string>
+				<key>Required</key>
+				<string>YES</string>
+				<key>Value</key>
+				<string>ModelManager</string>
+			</dict> -->
+
+			<!-- REQUIRED -->
+			<!-- sets whether to use swift or objc -->
+			<dict>
+				<key>AllowedTypes</key>
+				<dict>
+					<key>Objective-C</key>
+					<array>
+						<string>public.objective-c-source</string>
+						<string>public.objective-c-plus-plus-source</string>
+					</array>
+					<key>Swift</key>
+					<array>
+						<string>public.swift-source</string>
+					</array>
+				</dict>
+
+				<key>Default</key>
+				<string>Objective-C</string>
+				<key>Description</key>
+				<string>The implementation language</string>
+				<key>Identifier</key>
+				<string>languageChoice</string>
+				<key>MainTemplateFiles</key>
+				<dict>
+					<key>Objective-C</key>
+					<string>___FILEBASENAME___.m</string>
+					<key>Swift</key>
+					<string>___FILEBASENAME___.swift</string>
+				</dict>
+				<key>Name</key>
+				<string>Language:</string>
+				<key>Type</key>
+				<string>popup</string>
+				<key>Values</key>
+				<array>
+					<string>Swift</string>
+					<string>Objective-C</string>
+				</array>
+				<key>Required</key>
+				<string>YES</string>
+			</dict>
+
+			<!-- REQUIRED -->
+			<!-- sets which file you pick  -->
+			<!--	<dict>
+				<key>Default</key>
+				<string>ModelManager</string>
+				<key>Identifier</key>
+				<string>productName</string>
+				<key>Type</key>
+				<string>text</string>
+			</dict>
+		!-->
+
+		</array>
+		<key>Platforms</key>
+		<array>
+			<string>com.apple.platform.iphoneos</string>
+		</array>
+		<key>SortOrder</key>
+		<string>1</string>
+		<key>Summary</key>
+		<string>An UITableView DataSource with a header for Cocoa Touch</string>
+	</dict>
+</plist>
