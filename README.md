@@ -9,7 +9,7 @@ Useful templates for best-practice coding iOS apps. Now compatible with Swift!
 ### Contents
 
 #### UITableView/UICollectionView DataSource
-Always split out your datasource into a separate file from your view controller, this template will give you a good starting point. Also supports fetched results controller
+Always split out your datasource into a separate file from your view controller, this template will give you a good starting point. Also supports fetched results controller - This is going to change to an extension instead of an own class file
 
 #### Swift Extension
 Automatically gives proper naming and subclassing when you make an extension
