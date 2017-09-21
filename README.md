@@ -16,5 +16,5 @@ Base template for creating ViewModel files based on Kickstarters open source iOS
 Download or clone the repository
 Move the Scaffolding folder to this folder:
 `~/Library/Developer/Xcode/Templates/File Templates/`. You may have to create the `File Templates` directory.
-In the File Templates directory you put the main Scaffolding folder, so that this is a valid path: `/Users/hakonbogen/Library/Developer/Xcode/Templates/File Templates/Scaffolding`
+In the File Templates directory you put the main Scaffolding folder, so that this is a valid path: `~/Library/Developer/Xcode/Templates/File Templates/Scaffolding`
 In Xcode, check that installation was successful by creating a New File, if Scaffoling is one of the options, it suceeded!
